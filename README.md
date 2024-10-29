@@ -1,7 +1,8 @@
 # project1-2024
 
-2024-2학기 캡스톤프로젝트 수업
+2024-2학기 캡스톤프로젝트 중간 과제
 
+<<<<<<< HEAD
 <img src="https://img.shields.io/badge/
 HTML5-E34F26?style=for-the-badge&logo=HTML5&
 logoColor=white">
@@ -111,10 +112,26 @@ https://vision.googleapis.com/v1/images:annotate?key=
 3. 스테이지
 4. 커밋앤 푸시
 5. 커밋메세지
+=======
+# 구글 API를 이용한 얼굴 감지 프로젝트
+>>>>>>> b1717ef662b4a2021da75f22139a0737625fb32b
 
-2024-9-19 깃허브연동실습
-로컬에서 편집함
+이 프로젝트는 Google Cloud Vision API를 사용하여 이미지에서 얼굴을 감지하고, 감지된 얼굴에 대해 감정 분석을 수행하는 코드입니다.
+사용자는 이미지를 업로드하고, Google Vision API를 통해 해당 이미지에서 얼굴을 감지하여 감정 및 신뢰도를 분석할 수 있습니다.
 
-수정하기
+# 기능
+- 이미지 업로드
+- 얼굴 감지
+- 감정 분석
 
-3번째 수정하기
+# 사용 기술
+- HTML: 사용자 인터페이스 구성
+- JavaScript: API 요청 처리와 감정분석
+
+# API 
+- vision.js 파일에서 VISION_API_KEY에 발급받은 API 키를 입력합니다
+
+# 사용 예시
+1. 이미지를 업로드합니다.
+2. 이미지 분석 버튼을 클릭하여 Google Vision API에 요청을 보냅니다.
+3. 얼굴이 감지되면 해당 얼굴에 대한 감정 및 신뢰도 결과가 화면에 표시됩니다.
